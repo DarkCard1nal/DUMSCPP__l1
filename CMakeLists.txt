@@ -16,7 +16,7 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 set(CMAKE_CXX_EXTENSIONS OFF)
 
 # Добавьте источник в исполняемый файл этого проекта.
-add_executable (l1 "l1.cpp" "l1.h")
+add_executable (l1 "l1.cpp")
 
 # TODO: Добавьте тесты и целевые объекты, если это необходимо.
 add_custom_command(TARGET l1 POST_BUILD
