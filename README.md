@@ -15,6 +15,7 @@ This C++23 CMake project for linux, titled **"ComandLineArgs"**, is designed to 
 - **Command-line Argument Parsing:** Users can provide file names as command-line arguments.
 - **Testing Framework:** The program includes a testing function that validates its behavior using different test cases.
 - **Support for Various File Extensions:** The program can handle files with different types of extensions, including unusual ones, and files with no extensions.
+- **For screening**, you can use the double dot `..` when it occurs, everything before it is considered the name of the file, and everything after it is its extension
 
 ## Installation
 
